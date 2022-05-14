@@ -1,19 +1,19 @@
+from statistics import LinearRegression
 import requests
 from requests.api import head
 import csv
 import array as arr
-from sqlalchemy import true
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 import itertools
 import string
-from sklearn.preprocessing import OrdinalEncoder
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
 from sklearn.model_selection import train_test_split
-
+from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import accuracy_score
-
 from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="myapplication")
 
