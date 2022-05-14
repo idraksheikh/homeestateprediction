@@ -11,9 +11,9 @@ import string
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OrdinalEncoder
+
 from sklearn.metrics import accuracy_score
-from sklearn.neighbors import KNeighborsClassifier
+
 from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="myapplication")
 
