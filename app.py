@@ -1,4 +1,3 @@
-from statistics import LinearRegression
 import requests
 from requests.api import head
 import csv
@@ -10,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import itertools
 import string
-from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import accuracy_score
