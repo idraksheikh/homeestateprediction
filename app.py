@@ -25,7 +25,7 @@ try:
         e = st.checkbox('24X7Security', key=4)
         f = st.checkbox('Rain Water Harvesting', key=5)
         g = st.checkbox('Childrens Playground', key=6)
-        i = st.checkbox('Power Backup', key=8)
+        i = st.checkbox('Power Backup', key=7)
        
         submit_button = st.form_submit_button(label='Submit')
         location = geolocator.geocode(loc)
