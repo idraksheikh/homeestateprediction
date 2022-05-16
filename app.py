@@ -25,7 +25,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 try:
     with st.form(key='my_form'):
-        st.header('Price Prediction')
+        st.header('House Price Prediction')
         a = st.number_input('Enter the area in sq .ft',1000,6000, key=1)
         b = st.number_input('Enter number of Rooms',1,20, key=2)
         loc = st.text_input('Enter Location(Eg. Juhu)', key=3)
