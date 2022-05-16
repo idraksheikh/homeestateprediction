@@ -15,7 +15,14 @@ from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import accuracy_score
 from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="myapplication")
-
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 try:
     with st.form(key='my_form'):
         st.header('Price Prediction')
